@@ -1,0 +1,42 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 가상환경
+.venv/
+venv/
+env/
+ENV/
+
+# 환경변수 / API 키
+.env
+.env.*
+*.key
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 데이터 / 출력물 (용량 큰 파일 제외)
+*.csv
+*.xlsx
+*.parquet
+output/
+data/
